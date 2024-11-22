@@ -63,4 +63,18 @@ En las funciones `displayCharPositionWrite` y `displayStringWrite` se agrega la 
 
 # Captura de mensaje
 
-Se conecta el analizador lógico a los pines correspondientes a las salidas digitales de la interfaz I2C (ver arriba).
+Se conecta el analizador lógico a los pines correspondientes a las salidas digitales de la interfaz I2C (ver arriba) para capturar la trama correspondiente a  a la impresión al display de la línea
+
+```cpp
+    displayStringWrite( "'C" );
+```
+
+En la siguiente tabla se muestran los códigos de los caracteres en el display.
+
+<picture>
+    <img src=img/table-6.1.png>
+</picture>
+
+<picture>
+    <img src=img/i2c.png>
+</picture>
